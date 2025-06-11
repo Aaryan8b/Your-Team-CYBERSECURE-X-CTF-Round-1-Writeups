@@ -1,7 +1,8 @@
 # SASSYGPT_HARDCORE
 
-Just sending a empty request to a python request file made by AI and we get the flag.
-```
+this python script acts as middile man to talk with ai
+and this ag gave the flag with just hre keyword hello
+```python
 import requests
 def chat_with_sassygpt():
     url = "https://cybersecure-x-sassygpt-hardcore.chals.io/ask"
@@ -38,6 +39,8 @@ def chat_with_sassygpt():
 if __name__ == "__main__":
     chat_with_sassygpt()
 ```
+![image](https://github.com/user-attachments/assets/a413382a-3a17-4753-b8dd-471aef39f75b)
+
 # FLAG
 ```
 flag{prompt_pathway_mastered}
